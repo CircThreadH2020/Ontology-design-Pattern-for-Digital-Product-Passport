@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140/"
+     xml:base="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140">
+        <rdfs:label xml:lang="en">Safety Data Sheet</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#contains">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Safety_Data_Sheet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Hazard_Information"/>
+        <rdfs:label xml:lang="en">SDSContainsHazardInfo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Additional_hazards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Additional_hazards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Hazard_Class"/>
+        <rdfs:label xml:lang="en">Additional hazards</rdfs:label>
+        <rdfs:label xml:lang="en">Hazard class 5: Additional hazards</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Environmental_hazards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Environmental_hazards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Hazard_Class"/>
+        <rdfs:comment xml:lang="en">Hazard class 4: Environmental hazards</rdfs:comment>
+        <rdfs:label xml:lang="en">Environmental hazards</rdfs:label>
+        <rdfs:seeAlso>https://oshwiki.osha.europa.eu/en/themes/safety-data-sheet</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Free -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Free">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Hazard_Class"/>
+        <rdfs:comment xml:lang="en">Hazard class 1: free</rdfs:comment>
+        <rdfs:label>Free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Hazard_Class -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Hazard_Class">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Hazard_Information"/>
+        <rdfs:isDefinedBy xml:lang="en">the EU Regulation 1272/2008 on classification, labelling and packaging of substances and mixtures, amending (CLP)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Hazard Class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Hazard_Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Hazard_Information">
+        <rdfs:label xml:lang="en">Hazard Information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Hazard_Statement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Hazard_Statement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Hazard_Information"/>
+        <rdfs:label xml:lang="en">Hazard Statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Hazardous_to_the_ozone_layer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Hazardous_to_the_ozone_layer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Additional_hazards"/>
+        <rdfs:label xml:lang="en">Hazardous to the ozone layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Health_hazards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Health_hazards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Hazard_Class"/>
+        <rdfs:comment xml:lang="en">Hazard class 3: Health hazards</rdfs:comment>
+        <rdfs:label xml:lang="en">Health hazards</rdfs:label>
+        <rdfs:seeAlso>https://oshwiki.osha.europa.eu/en/themes/safety-data-sheet</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Physical_hazards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Physical_hazards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Hazard_Class"/>
+        <rdfs:comment xml:lang="en">Hazard class 2: Physical hazards</rdfs:comment>
+        <rdfs:label xml:lang="en">Physical hazards</rdfs:label>
+        <rdfs:seeAlso>https://oshwiki.osha.europa.eu/en/themes/safety-data-sheet</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Safety_Data_Sheet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-140#Safety_Data_Sheet">
+        <rdfs:comment xml:lang="en">The Safety Data Sheet (SDS) is a comprehensive information document about a chemical substance or mixture. It is meant as an additional source of information that goes beyond information available through classification and labelling and is predominantly intended for employers. Employers use SDS as a source of information about hazards, including environmental hazards, and advice on safe use at work. In the EU, SDS as specified in Article 31 of the REACH regulation (Regulation 1907/2006 concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH)) are legally required for chemical products. SDS-like information is often available even when it is not legally required.</rdfs:comment>
+        <rdfs:isDefinedBy>EU</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Safety Data Sheet</rdfs:label>
+        <rdfs:seeAlso>https://oshwiki.osha.europa.eu/en/themes/safety-data-sheet</rdfs:seeAlso>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

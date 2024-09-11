@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117/"
+     xml:base="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#canContain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#canContain">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingMaterial"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#HarmfulSubstances"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#hasLabel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#hasLabel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Packaging"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingLabels"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#hasMaterial -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#hasMaterial">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Packaging"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingMaterial"/>
+        <rdfs:label xml:lang="en">hasMaterial</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#hasProcess -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#hasProcess">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Packaging"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingProcess"/>
+        <rdfs:label xml:lang="en">hasProcess</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#hasUsed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#hasUsed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Packaging"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Energy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#usedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#usedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Energy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Packaging"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Compostable -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Compostable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingMaterial"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="en">Compostable</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#IsRecycling-friendly -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#IsRecycling-friendly">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingLabels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="en">IsRecycling-friendly</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#IsWash-off -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#IsWash-off">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingLabels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="en">IsWash-off</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingMaterial"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+        <rdfs:label xml:lang="en">MaterialName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#OPRL -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#OPRL">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#RecyclabilityContent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+        <rdfs:comment xml:lang="en">The on-pack recycling label (or OPRL)</rdfs:comment>
+        <rdfs:label xml:lang="en">OPRL</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#OPRLSymbol -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#OPRLSymbol">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#RecyclabilityContent"/>
+        <rdfs:label xml:lang="en">OPRLSymbol</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Plant-Based -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Plant-Based">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingMaterial"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Recyclable -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Recyclable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingMaterial"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="en">Recyclable</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Renewable -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Renewable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingMaterial"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="en">Renewable</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Subtype -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Subtype">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Type"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingLabels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingMaterial"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">Type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Cardboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Cardboard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingMaterial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Energy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Energy">
+        <rdfs:label xml:lang="en">Energy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Glass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Glass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingMaterial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#HarmfulSubstances -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#HarmfulSubstances"/>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Metal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Metal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingMaterial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Packaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Packaging"/>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingLabels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingLabels">
+        <rdfs:label xml:lang="en">PackagingLabels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingMaterial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingMaterial">
+        <rdfs:label xml:lang="en">PackagingMaterial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingProcess">
+        <rdfs:label xml:lang="en">PackagingProcess</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Paper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Paper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingMaterial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Plastic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#Plastic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingMaterial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#RecyclabilityContent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#RecyclabilityContent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-117#PackagingLabels"/>
+        <rdfs:label xml:lang="en">RecyclabilityContent</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

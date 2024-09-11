@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126/"
+     xml:base="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-125="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-125#"
+     xmlns:untitled-ontology-126="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126">
+        <rdfs:isDefinedBy>Open Energy Ontology (OEO)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Consumption</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-125#OEO_ID -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-125#OEO_ID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#OEO_ID -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#OEO_ID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#hasProcessAttribute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#hasProcessAttribute">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#EnergyUse"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#hasUnit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#hasUnit">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#hasProcessAttribute"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#energy_amount_value"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#mass_unit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#hasValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#hasValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#hasProcessAttribute"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#energy_amount_value"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#isAbout -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#isAbout">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#energy_amount_value"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#EnergyUse"/>
+        <rdfs:comment xml:lang="en">isAbout</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#Consumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#Consumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#Energy"/>
+        <untitled-ontology-126:OEO_ID>OEO_00140039</untitled-ontology-126:OEO_ID>
+        <untitled-ontology-126:definition xml:lang="en">Consumption is the process of using something and thereby reducing its amount.</untitled-ontology-126:definition>
+        <rdfs:label xml:lang="en">Consumption</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#Energy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#Energy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#EnergyUse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#EnergyUse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#Consumption"/>
+        <untitled-ontology-126:OEO_ID>OEO_00010210</untitled-ontology-126:OEO_ID>
+        <untitled-ontology-126:definition xml:lang="en">Energy use is the consumption of an energy carrier making use of the energy it carries.</untitled-ontology-126:definition>
+        <rdfs:label xml:lang="en">energy use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#Technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#Energy"/>
+        <untitled-ontology-125:OEO_ID xml:lang="en">Technology</untitled-ontology-125:OEO_ID>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#energy_amount_value -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#energy_amount_value">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#Energy"/>
+        <untitled-ontology-126:OEO_ID>OEO_00050019</untitled-ontology-126:OEO_ID>
+        <untitled-ontology-126:definition xml:lang="en">An energy amount value is a quantity value that has an energy unit as unit.</untitled-ontology-126:definition>
+        <rdfs:label xml:lang="en">energy amount value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#energy_consumption_value -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#energy_consumption_value">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#energy_amount_value"/>
+        <untitled-ontology-126:OEO_ID>OEO_00240019</untitled-ontology-126:OEO_ID>
+        <untitled-ontology-126:definition xml:lang="en">An energy consumption value is an energy amount value that measures the energy consumption over a time span.</untitled-ontology-126:definition>
+        <rdfs:label xml:lang="en">energy consumption value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#final_energy_consumption_value -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#final_energy_consumption_value">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#energy_consumption_value"/>
+        <untitled-ontology-126:OEO_ID>OEO_00050016</untitled-ontology-126:OEO_ID>
+        <untitled-ontology-126:definition xml:lang="en">A final energy consumption value is an energy consumption value expressing the magnitude of the energy delivered to and consumed by end users.</untitled-ontology-126:definition>
+        <rdfs:label xml:lang="en">final energy consumption value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#gross_inland_energy_consumption_value -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#gross_inland_energy_consumption_value">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#energy_consumption_value"/>
+        <untitled-ontology-126:OEO_ID>OEO_00050017</untitled-ontology-126:OEO_ID>
+        <untitled-ontology-126:definition xml:lang="en">A gross inland energy consumption value is an energy consumption value expressing the magnitude of the total consumption of energy in a spatial region (e.g. a country).</untitled-ontology-126:definition>
+        <rdfs:label xml:lang="en">gross inland energy consumption value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#mass_unit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#mass_unit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#Energy"/>
+        <rdfs:label xml:lang="en">mass unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#non-energy_use -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#non-energy_use">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#Consumption"/>
+        <untitled-ontology-126:OEO_ID>OEO_00010211</untitled-ontology-126:OEO_ID>
+        <untitled-ontology-126:definition xml:lang="en">Non-energy use is the consumption of an energy carrier without making use the energy it carries.</untitled-ontology-126:definition>
+        <rdfs:label xml:lang="en">non-energy use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#non-energy_use_technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#non-energy_use_technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#Technology"/>
+        <untitled-ontology-126:OEO_ID>OEO_00010471</untitled-ontology-126:OEO_ID>
+        <untitled-ontology-126:definition xml:lang="en">A non-energy use technology is a technology that describes among other things how to combine the consumption of energy carriers for non-energy use with other processes and artificial objects or other material entities in a specific way.</untitled-ontology-126:definition>
+        <rdfs:label xml:lang="en">non-energy use technology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#sectoral_energy_consumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#sectoral_energy_consumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-126#EnergyUse"/>
+        <untitled-ontology-126:OEO_ID>OEO_00000367</untitled-ontology-126:OEO_ID>
+        <untitled-ontology-126:definition xml:lang="en">A sectoral energy consumption is the energy use of a sector.
+
+A sector is generically dependent continuant that is a subdivision of a system.</untitled-ontology-126:definition>
+        <rdfs:label xml:lang="en">sectoral energy consumption</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

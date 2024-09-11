@@ -1,0 +1,634 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142/"
+     xml:base="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-142="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142">
+        <rdfs:comment xml:lang="en">IDTA 02023-0-9
+Carbon Footprint</rdfs:comment>
+        <rdfs:isDefinedBy>IDTA</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Carbon Footprint</rdfs:label>
+        <rdfs:seeAlso>https://github.com/admin-shell-io/submodel-templates/tree/main/published/Carbon%20Footprint/0/9</rdfs:seeAlso>
+        <owl:versionInfo>Date: 28.11.2023 
+Version: 0.9
+Comment: Pre-Release of Submodel Template</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#semanticId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#semanticId"/>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#semanticIdType -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#semanticIdType"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasAddress -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasAddress">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFGoodsAddressHandover"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFGoodsTransportAddressTakeover"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#Address"/>
+        <rdfs:label xml:lang="en">hasAddress</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasCalculationMethod -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasCalculationMethod">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ProductCarbonFootprint"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFCalculationMethod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasDate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ProductCarbonFootprint"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TransportCarbonFootprint"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PublicationDate"/>
+        <rdfs:label xml:lang="en">hasPublicationDate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasDateTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasDateTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ExpirationDate"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PublicationDate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#DateTime"/>
+        <rdfs:label xml:lang="en">hasDateTime</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasExpirationDate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasExpirationDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ProductCarbonFootprint"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TransportCarbonFootprint"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ExpirationDate"/>
+        <rdfs:label xml:lang="en">hasExpirationDate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasExplanatoryStatement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasExplanatoryStatement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ProductCarbonFootprint"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TransportCarbonFootprint"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ExplanatoryStatement"/>
+        <rdfs:label xml:lang="en">hasExplanatoryStatement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasGoodsAddressHandover -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasGoodsAddressHandover">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ProductCarbonFootprint"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFGoodsAddressHandover"/>
+        <rdfs:label xml:lang="en">hasGoodsAddressHandover</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasGoodsTransportAddressTakeover -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasGoodsTransportAddressTakeover">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TransportCarbonFootprint"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFGoodsTransportAddressTakeover"/>
+        <rdfs:label xml:lang="en">hasGoodsTransportAddressTakeover</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasLifeCyclePhase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasLifeCyclePhase">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ProductCarbonFootprint"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFLifeCyclePhase"/>
+        <rdfs:label xml:lang="en">hasLifeCyclePhase</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasPCFQuantity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasPCFQuantity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFQuantityOfMeasureForCalculation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#Quantity"/>
+        <rdfs:label xml:lang="en">hasPCFQuantity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasQuantity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasQuantity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFCO2eq"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#Quantity"/>
+        <rdfs:label xml:lang="en">hasQuantity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasReferenceValueForCalculation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasReferenceValueForCalculation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ProductCarbonFootprint"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TransportCarbonFootprint"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFReferenceValueForCalculation"/>
+        <rdfs:label xml:lang="en">hasReferenceValueForCalculation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasTCFQuantity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#hasTCFQuantity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFQuantityOfMeasureForCalculation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#Quantity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#Address -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#Address">
+        <rdfs:label xml:lang="en">Address</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#CarbonFootprint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#CarbonFootprint">
+        <untitled-ontology-142:semanticId>https://admin-shell.io/idta/CarbonFootprint/CarbonFootprint/0/9</untitled-ontology-142:semanticId>
+        <rdfs:comment xml:lang="en">The Submodel provides the means to access the Carbon Footprint of the asset.</rdfs:comment>
+        <rdfs:label xml:lang="en">CarbonFootprint</rdfs:label>
+        <rdfs:seeAlso>https://github.com/admin-shell-io/submodel-templates/tree/main/published/Carbon%20Footprint/0/9</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#DateTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#DateTime">
+        <rdfs:label xml:lang="en">DateTime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#EN_15804 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#EN_15804">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFCalculationMethod"/>
+        <untitled-ontology-142:semanticId>173-1#07-ABU223#002</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:label>EN 15804</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#EN_16258 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#EN_16258">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFCalculationMethod"/>
+        <untitled-ontology-142:semanticId>0173-1#07-ABU224#001</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:label>EN 16258</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ExpirationDate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ExpirationDate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#CarbonFootprint"/>
+        <untitled-ontology-142:semanticId>https://admin-shell.io/idta/CarbonFootprint/ExpirationnDate/1/0</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRI</untitled-ontology-142:semanticIdType>
+        <rdfs:comment xml:lang="en">Time at which something should no longer be used effectively because it may lose its validity, quality or safety</rdfs:comment>
+        <rdfs:label>ExpirationDate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ExplanatoryStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ExplanatoryStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#CarbonFootprint"/>
+        <untitled-ontology-142:semanticId>https://admin-shell.io/idta/CarbonFootprint/ExplanatoryStatement/1/0</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRI</untitled-ontology-142:semanticIdType>
+        <rdfs:comment xml:lang="en">Explanation which is needed or given so that a footprint communication can be properly understood by a purchaser, potential purchaser or user of the product</rdfs:comment>
+        <rdfs:label>ExplanatoryStatement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#GHG_Protocol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#GHG_Protocol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFCalculationMethod"/>
+        <untitled-ontology-142:semanticId>0173-1#07-ABU221#002</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:label xml:lang="en">GHG Protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#IEC_63366 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#IEC_63366">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFCalculationMethod"/>
+        <untitled-ontology-142:semanticId>0173-1#07-ACA792#001</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:label>IEC 63366</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#IEC_TS_63058 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#IEC_TS_63058">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFCalculationMethod"/>
+        <untitled-ontology-142:semanticId>0173-1#07-ABU222#002</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:label>IEC TS 63058</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ISO_14040 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ISO_14040">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFCalculationMethod"/>
+        <untitled-ontology-142:semanticId>0173-1#07-ABV505#002</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:label>ISO 14040</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ISO_14044 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ISO_14044">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFCalculationMethod"/>
+        <untitled-ontology-142:semanticId>0173-1#07-ABV506#002</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:label>ISO 14044</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ISO_14067 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ISO_14067">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFCalculationMethod"/>
+        <untitled-ontology-142:semanticId>0173-1#07-ABU218#002</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:label>ISO 14067</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFCO2eq -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFCO2eq">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ProductCarbonFootprint"/>
+        <untitled-ontology-142:semanticId>0173-1#02-ABG855#001</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticId>IRDI</untitled-ontology-142:semanticId>
+        <rdfs:comment xml:lang="en">Sum of all greenhouse gas emissions of a product according to the quantification requirements of the standard</rdfs:comment>
+        <rdfs:label>PCFCO2eq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFCalculationMethod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFCalculationMethod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#CarbonFootprint"/>
+        <untitled-ontology-142:semanticId>0173-1#02-ABG854#002</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:comment xml:lang="en">Standard, method for determining the greenhouse gas emissions of a product</rdfs:comment>
+        <rdfs:label xml:lang="en">PCFCalculationMethod</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFGoodsAddressHandover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFGoodsAddressHandover">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#CarbonFootprint"/>
+        <untitled-ontology-142:semanticId>0173-1#02-ABI497#001</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:label xml:lang="en">PCFGoodsAddressHandover</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFLifeCyclePhase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFLifeCyclePhase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#CarbonFootprint"/>
+        <untitled-ontology-142:semanticId>0173-1#02-ABG858#001</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:label xml:lang="en">PCFLifeCyclePhase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFQuantityOfMeasureForCalculation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFQuantityOfMeasureForCalculation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ProductCarbonFootprint"/>
+        <untitled-ontology-142:semanticId>0173-1#02-ABG857#001</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:comment>Quantity of the product to which the PCF information on the CO2 footprint refers</rdfs:comment>
+        <rdfs:label>PCFQuantityOfMeasureForCalculation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFReferenceValueForCalculation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFReferenceValueForCalculation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#CarbonFootprint"/>
+        <rdfs:label xml:lang="en">ReferenceValueForCalculation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PEP_Ecopassport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PEP_Ecopassport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFCalculationMethod"/>
+        <untitled-ontology-142:semanticId>0173-1#07-ABU220#002</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:label>PEP Ecopassport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ProductCarbonFootprint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ProductCarbonFootprint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#CarbonFootprint"/>
+        <untitled-ontology-142:semanticId>https://admin-shell.io/idta/CarbonFootprint/ProductCarbonFootprint/0/9</untitled-ontology-142:semanticId>
+        <rdfs:comment xml:lang="en">Balance of greenhouse gas emissions along the entire life cycle of a product in a defined application and in relation to a defined unit of use</rdfs:comment>
+        <rdfs:label xml:lang="en">ProductCarbonFootprint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PublicationDate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PublicationDate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#CarbonFootprint"/>
+        <untitled-ontology-142:semanticId>https://admin-shell.io/idta/CarbonFootprint/PublicationDate/1/0</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRI</untitled-ontology-142:semanticIdType>
+        <rdfs:comment xml:lang="en">Time at which something was first published or made available</rdfs:comment>
+        <rdfs:label xml:lang="en">PublicationDate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#Quantity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#Quantity">
+        <rdfs:comment>QUDT</rdfs:comment>
+        <rdfs:label xml:lang="en">Quantity</rdfs:label>
+        <rdfs:seeAlso>https://qudt.org/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFCO2eq -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFCO2eq">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TransportCarbonFootprint"/>
+        <untitled-ontology-142:semanticId>0173-1#02-ABG860#001</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:comment xml:lang="en">Sum of all greenhouse gas emissions from vehicle operation</rdfs:comment>
+        <rdfs:label>TCFCO2eq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFCalculationMethod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFCalculationMethod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#CarbonFootprint"/>
+        <untitled-ontology-142:semanticId>0173-1#02-ABG859#002</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:comment xml:lang="en">Standard, method for determining the greenhouse gas emissions for the transport of a product</rdfs:comment>
+        <rdfs:label xml:lang="en">TCFCalculationMethod</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFGoodsTransportAddressTakeover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFGoodsTransportAddressTakeover">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#CarbonFootprint"/>
+        <untitled-ontology-142:semanticId>0173-1#02-ABI499#001</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:comment xml:lang="en">Indication of the place of receipt of goods</rdfs:comment>
+        <rdfs:label xml:lang="en">TCFGoodsTransportAddressTakeover</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFProcessesForGreenhouseGasEmissionInATransportService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFProcessesForGreenhouseGasEmissionInATransportService">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TransportCarbonFootprint"/>
+        <untitled-ontology-142:semanticId>0173-1#02-ABG863#002</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:comment xml:lang="en">Processes in a transport service to determine the sum of all direct or indirect greenhouse gas emissions from fuel supply and vehicle operation</rdfs:comment>
+        <rdfs:label xml:lang="en">TCFProcessesForGreenhouseGasEmissionInATransportService</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFQuantityOfMeasureForCalculation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFQuantityOfMeasureForCalculation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TransportCarbonFootprint"/>
+        <untitled-ontology-142:semanticId>0173-1#02-ABG862#001</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:comment xml:lang="en">Quantity of the product to which the TCF information on the CO2 footprint refers</rdfs:comment>
+        <rdfs:label xml:lang="en">TCFQuantityOfMeasureForCalculation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TTW_-_Tank-to-Wheel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TTW_-_Tank-to-Wheel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFProcessesForGreenhouseGasEmissionInATransportService"/>
+        <untitled-ontology-142:semanticId>0173-1#07-ABU215#001</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:label>TTW - Tank-to-Wheel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TransportCarbonFootprint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TransportCarbonFootprint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#CarbonFootprint"/>
+        <untitled-ontology-142:semanticId>https://admin-shell.io/idta/CarbonFootprint/TransportCarbonFootprint/0/9</untitled-ontology-142:semanticId>
+        <rdfs:comment xml:lang="en">Balance of greenhouse gas emissions generated by a transport service of a product</rdfs:comment>
+        <rdfs:label xml:lang="en">TransportCarbonFootprint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#WTT_-_Well-to-Tank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#WTT_-_Well-to-Tank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFProcessesForGreenhouseGasEmissionInATransportService"/>
+        <untitled-ontology-142:semanticId>0173-1#07-ABU216#001</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:label>WTT - Well-to-Tank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#WTW_-_Well-to-Wheel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#WTW_-_Well-to-Wheel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#TCFProcessesForGreenhouseGasEmissionInATransportService"/>
+        <untitled-ontology-142:semanticId>0173-1#07-ABU217#001</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:label>WTW - Well-to-Wheel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#cbm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#cbm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFReferenceValueForCalculation"/>
+        <rdfs:label>cbm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#g -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#g">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFReferenceValueForCalculation"/>
+        <untitled-ontology-142:semanticId>0173-1#07-ABZ596#001</untitled-ontology-142:semanticId>
+        <untitled-ontology-142:semanticIdType>IRDI</untitled-ontology-142:semanticIdType>
+        <rdfs:comment xml:lang="en">gram</rdfs:comment>
+        <rdfs:label>g</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#kg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#kg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFReferenceValueForCalculation"/>
+        <rdfs:label>kg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#l -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#l">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFReferenceValueForCalculation"/>
+        <rdfs:label>l</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ml -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#ml">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFReferenceValueForCalculation"/>
+        <rdfs:label>ml</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#piece -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#piece">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFReferenceValueForCalculation"/>
+        <rdfs:label>piece</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#qm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#qm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFReferenceValueForCalculation"/>
+        <rdfs:label>qm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#t -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#t">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-142#PCFReferenceValueForCalculation"/>
+        <rdfs:label>t</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121/"
+     xml:base="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#belongsTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#belongsTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Product"/>
+        <rdfs:label xml:lang="en">belongsTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#containsDocument -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#containsDocument">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Document"/>
+        <rdfs:label xml:lang="en">ContainsDocument</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#containsInformation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#containsInformation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPPInformation"/>
+        <rdfs:label xml:lang="en">containsInformation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#hasCreationDateTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#hasCreationDateTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DateTime"/>
+        <rdfs:label xml:lang="en">hasCreationDateTime</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#hasCurrentStatus -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#hasCurrentStatus">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Status"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#hasCurrentVersion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#hasCurrentVersion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Version"/>
+        <rdfs:label xml:lang="en">hasCurrentVersion</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#hasId -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#hasId">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#ID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#hasLastUpdateDateTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#hasLastUpdateDateTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DateTime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#hasOriginalLanguage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#hasOriginalLanguage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#OriginalLanguage"/>
+        <rdfs:label xml:lang="en">hasOriginalLanguage</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#hasPreviousVersion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#hasPreviousVersion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Version"/>
+        <rdfs:label xml:lang="en">hasPreviousVersion</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#isAbout -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#isAbout">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPPInformation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Product"/>
+        <rdfs:label xml:lang="en">isAbout</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#isCreatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#isCreatedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Manufacturer"/>
+        <rdfs:label xml:lang="en">isCreatedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#isCreatedUsingTool -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#isCreatedUsingTool">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Tool"/>
+        <rdfs:label xml:lang="en">isCreatedUsingTool</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#isManufactured -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#isManufactured">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Manufacturer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Product"/>
+        <rdfs:label xml:lang="en">isManufactured</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#isResponsibleForCreating -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#isResponsibleForCreating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Manufacturer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPP"/>
+        <rdfs:label xml:lang="en">isResponsibleForCreating</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Actor">
+        <rdfs:label xml:lang="en">Actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Approved -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Approved">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Status"/>
+        <rdfs:label xml:lang="en">Approved</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Company">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Manufacturer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPP">
+        <rdfs:comment xml:lang="en">DPP</rdfs:comment>
+        <rdfs:comment xml:lang="en">Digital Product Passport</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPPInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DPPInformation">
+        <rdfs:label xml:lang="en">DPPInformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DateTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#DateTime">
+        <rdfs:label xml:lang="en">DateTime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Document -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Document">
+        <rdfs:label xml:lang="en">HandoverDocumentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Draft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Draft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Status"/>
+        <rdfs:label xml:lang="en">Draft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#ID -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#ID">
+        <rdfs:comment xml:lang="en">Unique Identification</rdfs:comment>
+        <rdfs:label xml:lang="en">Identification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Manufacturer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Manufacturer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Actor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#NotExsist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#NotExsist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Status"/>
+        <rdfs:label xml:lang="en">Not Exsist</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Open -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Open">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Status"/>
+        <rdfs:label xml:lang="en">Open</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#OriginalLanguage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#OriginalLanguage">
+        <rdfs:label xml:lang="en">Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Pending -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Pending">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Status"/>
+        <rdfs:label xml:lang="en">Pending</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Product">
+        <rdfs:label xml:lang="en">Product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Status -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Status">
+        <rdfs:label xml:lang="en">Status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Tool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Tool">
+        <rdfs:label xml:lang="en">Tool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Version -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Version">
+        <rdfs:label xml:lang="en">Version</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Voided -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Voided">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-121#Status"/>
+        <rdfs:comment xml:lang="en">a DPP that has been marked as no longer valid.</rdfs:comment>
+        <rdfs:label xml:lang="en">Voided</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

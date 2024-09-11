@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-136/"
+     xml:base="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-136/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-135="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-136">
+        <rdfs:comment xml:lang="en">IDTA 02011-1-0
+Hierarchical Structures enabling Bills of Material</rdfs:comment>
+        <rdfs:isDefinedBy>IDTA</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">BillOfMaterial</rdfs:label>
+        <rdfs:seeAlso>https://github.com/admin-shell-io/submodel-templates/tree/main/published/Hierarchical%20Structures%20enabling%20Bills%20of%20Material/1/0</rdfs:seeAlso>
+        <owl:versionInfo xml:lang="en">Date: 2023-04-17
+Version: 1.0
+Comments: Release of the official Submodel template published by IDTA.</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#semanticId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#semanticId"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#HasPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#HasPart">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#EntryNode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#Node"/>
+        <untitled-ontology-135:semanticId>https://admin-shell.io/idta/HierarchicalStructures/HasPart/1/0</untitled-ontology-135:semanticId>
+        <rdfs:comment xml:lang="en">Modeling of logical connections between components and sub-components. Either this or &quot;IsPartOf&quot; must be used, not both.
+First and Second attributes must contain either a EntryNode or a Node. The relationships shall only reference EntryNodes or Nodes in the same Submodel.</rdfs:comment>
+        <rdfs:label xml:lang="en">entryNodeHasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#IsPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#IsPartOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#Node"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#EntryNode"/>
+        <untitled-ontology-135:semanticId>https://admin-shell.io/idta/HierarchicalStructures/IsPartOf/1/0</untitled-ontology-135:semanticId>
+        <rdfs:comment xml:lang="en">Modeling of logical connections between asset and sub-asset. Either this or &quot;HasPart&quot; must be used, not both.First and Second attributes must contain either a EntryNode or a Node. The relationships shall only reference EntryNodes or Nodes in the same Submodel.</rdfs:comment>
+        <rdfs:label xml:lang="en">nodeIsPartOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#SameAs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#SameAs">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#Node"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#Node"/>
+        <untitled-ontology-135:semanticId>https://admin-shell.io/idta/HierarchicalStructures/SameAs/1/0</untitled-ontology-135:semanticId>
+        <rdfs:comment xml:lang="en">Reference between two Entities in the same Submodel or across Submodels.
+First and Second attributes must contain either an EntryNode or a Node.</rdfs:comment>
+        <rdfs:label xml:lang="en">nodeSameAs</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#nodeHasPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#nodeHasPart">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#Node"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#Node"/>
+        <untitled-ontology-135:semanticId>https://admin-shell.io/idta/HierarchicalStructures/HasPart/1/0</untitled-ontology-135:semanticId>
+        <rdfs:label xml:lang="en">nodeHasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#ArcheType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#ArcheType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#HierarchicalStructures"/>
+        <rdfs:comment xml:lang="en">The three archetypes may serve different Use-Cases and thus can be selected as needed. ArcheType of the Submodel, there are three allowed enumeration entries: 1. “Full”, 2. “OneDown” and 3. “OneUp”.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#BulkCount -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#BulkCount">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#Node"/>
+        <untitled-ontology-135:semanticId>https://admin-shell.io/idta/HierarchicalStructures/BulkCount/1/0</untitled-ontology-135:semanticId>
+        <rdfs:comment xml:lang="en">To be used if bulk components are referenced, e.g., a 10x M4x30 screw.
+Additional constraint: With bulk count only a reference to an asset with kind type is allowed, e.g., the M4x30 type asset.</rdfs:comment>
+        <rdfs:label xml:lang="en">BulkCount</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#EntryNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#EntryNode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#HierarchicalStructures"/>
+        <untitled-ontology-135:semanticId>https://admin-shell.io/idta/HierarchicalStructures/EntryNode/1/0</untitled-ontology-135:semanticId>
+        <rdfs:comment xml:lang="en">Base entry point for the Entity tree in this Submodel, this must be a Self-managed Entity reflecting the Assets administrated in the AAS this Submodel is part of.</rdfs:comment>
+        <rdfs:label xml:lang="en">EntryNode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#Full -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#Full">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#ArcheType"/>
+        <rdfs:comment xml:lang="en">This Submodel Template allows to model a full hierarchy (including sub assets) in a single Submodel as illustrated by the “Full” view below. This is useful if Entities representing Co-Managed Entities have to be expressed, as Co-Managed-Entities typically do not have an Asset Administration Shell of their own. In addition, full modeling also allows a version status to be kept centrally.</rdfs:comment>
+        <rdfs:label xml:lang="en">Full</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#HierarchicalStructures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#HierarchicalStructures">
+        <untitled-ontology-135:semanticId>https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel</untitled-ontology-135:semanticId>
+        <rdfs:comment xml:lang="en">AAS Submodel – HierarchicalStructures</rdfs:comment>
+        <rdfs:isDefinedBy>IDTA</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">HierarchicalStructures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#Node -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#Node">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#EntryNode"/>
+        <untitled-ontology-135:semanticId>https://admin-shell.io/idta/HierarchicalStructures/Node/1/0</untitled-ontology-135:semanticId>
+        <rdfs:comment xml:lang="en">The Entity Node can be a co-managed or self-managed entity representing an asset in the hierarchical structure.
+At least one nested Node shall be created as a SubmodelElement for the EntryNode. In relation to the ArcheType, either the Relationship IsPartOf or HasPart shall be created using this Node as Second attribute.</rdfs:comment>
+        <rdfs:label xml:lang="en">Node</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#One_Down -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#One_Down">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#ArcheType"/>
+        <rdfs:comment xml:lang="en">The One Down archetype is useful for subsystem or component manufactures. For any given Asset in the hierarchy tree, an AAS corresponding to the Asset shall exists. The AAS shall contain a Submodel expressing the one down excerpt view starting with the Asset of the AAS. This type allows the modelling of a consistent stand-alone hierarchy in the engineering-phase of the subsystem. The integration is done by adding the subsystem in a top-level system via the given rules of this Submodel Template, e.g., with the HasPart Relation.</rdfs:comment>
+        <rdfs:label xml:lang="en">One Down</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#One_Up -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#One_Up">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-135#ArcheType"/>
+        <rdfs:comment xml:lang="en">The One Up relationship is suitable for describing the installation location of an asset. This enables the asset to provide information without external asset administration shells (e.g., in offline scenarios). In addition, the installation location can already be determined when the parent asset and its AAS are still in the planning stage.</rdfs:comment>
+        <rdfs:label xml:lang="en">One Up</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

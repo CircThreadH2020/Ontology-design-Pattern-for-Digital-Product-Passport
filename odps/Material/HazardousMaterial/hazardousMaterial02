@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129/"
+     xml:base="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129">
+        <rdfs:comment xml:lang="en">A material that poses a hazard during use or storage is a hazardous material. In concrete terms, this means any substance that is harmful to the body and/or the environment in any form of contact. These substances are marked with appropriate labels (e.g. toxic, corrosive, hazardous to water, hazardous to the environment). The special feature here compared with dangerous goods is that all hazards are labeled, regardless of how serious their effect is. In addition, there is a safety data sheet for each hazardous substance, which contains important information about the substance.</rdfs:comment>
+        <rdfs:label xml:lang="en">hazardous material</rdfs:label>
+        <rdfs:seeAlso>https://prosafecon.de/en/difference-hazardous-material-vs-dangerous-goods-what-to-look-out-for/</rdfs:seeAlso>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hasAdverseHealthOutcomes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hasAdverseHealthOutcomes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hazardous_material"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Major_adverse_health_outcomes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hasForm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hasForm">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hazardous_material"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#substance_form"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hasLabel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hasLabel">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Substance_Label"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hasSafetyDataSheet -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hasSafetyDataSheet">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#safety_data_sheet"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#isTransportedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#isTransportedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Dangerous_goods"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#dangerous_goods_transport"/>
+        <rdfs:label xml:lang="en">isTransportedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#mustCheck -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#mustCheck">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Manufacturer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hazardous_material"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Bioaerosol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Bioaerosol">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Biological"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#HazardousSubstance"/>
+        <rdfs:comment xml:lang="en">Bioaerosols are defined as particles of microbial, plant, or animal origin and oftentimes are called “organic dust.&quot; They can include live or dead bacteria, fungi, viruses, allergens, bacterial endotoxins (components of cell membranes of Gram-negative bacteria), antigens (molecules that can induce an immune response), toxins (toxins produced by microorganisms), mycotoxins (toxins produced by fungi), glucans (components of cell walls of many molds), pollen, and plant fibers.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bioaerosols</rdfs:label>
+        <rdfs:seeAlso>https://oshwiki.osha.europa.eu/en/themes/bioaerosols-and-osh</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Biological -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Biological">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#HazardousSubstance"/>
+        <rdfs:label xml:lang="en">Biological</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Chemical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Chemical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#HazardousSubstance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Dangerous_goods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Dangerous_goods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hazardous_material"/>
+        <rdfs:comment xml:lang="en">If a good, i.e. an object, or a substance poses a hazard during transport, it is a dangerous good. In concrete terms, this means that, especially in the event of a (traffic) accident, for example, further hazards emanate from a substance or object because it is, for example, highly flammable or under pressure.</rdfs:comment>
+        <rdfs:label xml:lang="en">Dangerous Goods</rdfs:label>
+        <rdfs:seeAlso>https://prosafecon.de/en/difference-hazardous-material-vs-dangerous-goods-what-to-look-out-for/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#HazardousSubstance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#HazardousSubstance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hazardous_material"/>
+        <rdfs:label xml:lang="en">Hazardous Substance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Major_adverse_health_outcomes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Major_adverse_health_outcomes">
+        <rdfs:label xml:lang="en">Major adverse health outcomes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Manufacturer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Manufacturer">
+        <rdfs:comment xml:lang="en">The manufacturer or the first importer of a product must check whether his product is a hazardous substance or dangerous goods. If this is the case, a safety data sheet (SDS) is established. Section 14 of the MSDS indicates whether the product is a dangerous goods – a UN No. is given.</rdfs:comment>
+        <rdfs:label xml:lang="en">Manufacturer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Substance_Label -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Substance_Label">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hazardous_material"/>
+        <rdfs:label xml:lang="en">Substance Label</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#corrosive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#corrosive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Substance_Label"/>
+        <rdfs:label xml:lang="en">corrosive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#dangerous_goods_transport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#dangerous_goods_transport">
+        <rdfs:label xml:lang="en">dangerous goods transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#gas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#gas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#substance_form"/>
+        <rdfs:label xml:lang="en">gas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hazardous_material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hazardous_material">
+        <rdfs:label xml:lang="en">Hazardous Material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hazardous_to_the_environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hazardous_to_the_environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Substance_Label"/>
+        <rdfs:label xml:lang="en">hazardous to the environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hazardous_to_water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#hazardous_to_water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Substance_Label"/>
+        <rdfs:label xml:lang="en">hazardous to water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#highly_flammable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#highly_flammable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Dangerous_goods"/>
+        <rdfs:label xml:lang="en">highly flammable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#liquid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#liquid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#substance_form"/>
+        <rdfs:label xml:lang="en">liquid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#safety_data_sheet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#safety_data_sheet">
+        <rdfs:comment xml:lang="en">There is a safety data sheet for each hazardous substance, which contains important information about the substance.</rdfs:comment>
+        <rdfs:label xml:lang="en">Safety Data Sheet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#solid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#solid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#substance_form"/>
+        <rdfs:label xml:lang="en">solid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#substance_form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#substance_form">
+        <rdfs:label xml:lang="en">Substance Form</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#toxic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#toxic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-129#Substance_Label"/>
+        <rdfs:label xml:lang="en">toxic</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

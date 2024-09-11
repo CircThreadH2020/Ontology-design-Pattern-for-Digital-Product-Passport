@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146/"
+     xml:base="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-146="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146">
+        <rdfs:comment xml:lang="en">IDTA 02006-2-0  Digital Nameplate for industrial equipment.
+Contains the nameplate information attached to the product</rdfs:comment>
+        <rdfs:label>Digital Nameplate</rdfs:label>
+        <rdfs:seeAlso>https://github.com/admin-shell-io/submodel-templates/tree/main/published/Digital%20nameplate/2/0</rdfs:seeAlso>
+        <owl:versionInfo xml:lang="en">Date, Version, Comment
+2020-11-24, 1.0, This version is the first version officially published by ZVEI and Plattform
+Industrie 4.0.
+
+2022-10-20, 2.0, Release of the official Submodel template published by IDTA. This version is
+based on V1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#semanticId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#semanticId"/>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#semanticIdType -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#semanticIdType"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#contains">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Digital_Nameplate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#AssetSpecificProperties"/>
+        <rdfs:label>contains</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#containsId -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#containsId">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Digital_Nameplate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Identifier"/>
+        <rdfs:label>containsId</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#containsMarkings -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#containsMarkings">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Digital_Nameplate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Markings"/>
+        <rdfs:label xml:lang="en">containsMarkings</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#containsProductSpecificaiton -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#containsProductSpecificaiton">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Digital_Nameplate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification"/>
+        <rdfs:label xml:lang="en">containsProductSpesification</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#hasContactInformation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#hasContactInformation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Manufacturer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ContactInformation"/>
+        <rdfs:label xml:lang="en">hasContactInformation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#hasDate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#hasDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#DateOfManufacture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#DateTime"/>
+        <rdfs:label>hasDate</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#hasManufacturerName -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#hasManufacturerName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Digital_Nameplate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Manufacturer"/>
+        <rdfs:label xml:lang="en">hasManufacturerInfo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#hasProductSpecification -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#hasProductSpecification">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Product"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification"/>
+        <rdfs:label xml:lang="en">hasProductSpecification</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Actor">
+        <rdfs:label xml:lang="en">Actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ArticleNumber -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ArticleNumber">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductArticleNumberOfManufacturer"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification"/>
+        <rdfs:label xml:lang="en">ArticleNumber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#AssetSpecificProperties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#AssetSpecificProperties">
+        <untitled-ontology-146:semanticId>0173-1#01-AGZ672#001</untitled-ontology-146:semanticId>
+        <untitled-ontology-146:semanticIdType>IRDI</untitled-ontology-146:semanticIdType>
+        <rdfs:comment>Group of properties that are listed on the asset&apos;s
+nameplate and are grouped based on guidelines
+Note: defined as “Asset specific nameplate information”
+per ECLASS</rdfs:comment>
+        <rdfs:label xml:lang="en">AssetSpecificProperties</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#CompanyLogo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#CompanyLogo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification"/>
+        <rdfs:label>CompanyLogo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ContactInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ContactInformation">
+        <rdfs:comment xml:lang="en">The SMC “ContactInformation” contains information on
+how to contact the manufacturer or an authorised service
+provider, e.g. when a maintenance service is required.
+Note: physical address is a mandatory property according
+to EU Machine Directive 2006/42/EC.</rdfs:comment>
+        <rdfs:label xml:lang="en">ContactInformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#CountryOfOrigin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#CountryOfOrigin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification"/>
+        <rdfs:label>CountryOfOrigin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#DateOfManufacture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#DateOfManufacture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification"/>
+        <untitled-ontology-146:semanticId>0173-1#02-AAR972#002</untitled-ontology-146:semanticId>
+        <untitled-ontology-146:semanticIdType>IRDI</untitled-ontology-146:semanticIdType>
+        <rdfs:comment xml:lang="en">Date from which the production and / or development
+process is completed or from which a service is provided
+completely</rdfs:comment>
+        <rdfs:label xml:lang="en">DateOfManufacture</rdfs:label>
+        <rdfs:seeAlso>[IRDI] 0112/2///61987#ABB757#007 date of
+manufacture</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#DateTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#DateTime">
+        <rdfs:label>DateTime</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Digital_Nameplate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Digital_Nameplate">
+        <rdfs:comment xml:lang="en">Contains the nameplate information attached to the product</rdfs:comment>
+        <rdfs:label>Digital Nameplate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#FirmwareVersion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#FirmwareVersion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification"/>
+        <rdfs:label>FirmwareVersion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#HardwareVersion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#HardwareVersion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification"/>
+        <rdfs:label>HardwareVersion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Identifier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Identifier">
+        <rdfs:comment xml:lang="en">identifier ODP</rdfs:comment>
+        <rdfs:label>Identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Manufacturer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Manufacturer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Actor"/>
+        <rdfs:label xml:lang="en">Manufacturer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ManufacturerProductDesignation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ManufacturerProductDesignation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification"/>
+        <untitled-ontology-146:semanticId>0173-1#02-AAW338#001</untitled-ontology-146:semanticId>
+        <untitled-ontology-146:semanticIdType>IRDI</untitled-ontology-146:semanticIdType>
+        <rdfs:comment xml:lang="en">Short description of the product (short text)</rdfs:comment>
+        <rdfs:label xml:lang="en">ManufacturerProductDesignation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ManufacturerProductFamily -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ManufacturerProductFamily">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification"/>
+        <untitled-ontology-146:semanticId>0173-1#02-AAU731#001</untitled-ontology-146:semanticId>
+        <untitled-ontology-146:semanticIdType>IRDI</untitled-ontology-146:semanticIdType>
+        <rdfs:comment xml:lang="en">2nd level of a 3 level manufacturer specific product
+hierarchy
+Note: conditionally mandatory property according to EU
+Machine Directive 2006/42/EC. One of the two properties
+must be provided:
+ManufacturerProductFamily (0173-1#02-AAU731#001) or
+ManufacturerProductType (0173-1#02-AAO057#002).</rdfs:comment>
+        <rdfs:label xml:lang="en">ManufacturerProductFamily</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ManufacturerProductType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ManufacturerProductType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification"/>
+        <untitled-ontology-146:semanticId>0173-1#02-AAO057#002</untitled-ontology-146:semanticId>
+        <untitled-ontology-146:semanticIdType>IRDI</untitled-ontology-146:semanticIdType>
+        <rdfs:comment xml:lang="en">Characteristic to differentiate between different products of
+a product family or special variants</rdfs:comment>
+        <rdfs:label xml:lang="en">ManufacturerProductType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Markings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Markings">
+        <untitled-ontology-146:semanticId>0173-1#01-AGZ673#001</untitled-ontology-146:semanticId>
+        <untitled-ontology-146:semanticIdType>IRDI</untitled-ontology-146:semanticIdType>
+        <rdfs:comment xml:lang="en">Collection of product markings
+Note: CE marking is declared as mandatory according to EU Machine Directive 2006/42/EC.</rdfs:comment>
+        <rdfs:label xml:lang="en">Markings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#OrderCodeOfManufacturer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#OrderCodeOfManufacturer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification"/>
+        <untitled-ontology-146:semanticId>0173-1#02-AAO227#002</untitled-ontology-146:semanticId>
+        <untitled-ontology-146:semanticIdType>IRDI</untitled-ontology-146:semanticIdType>
+        <rdfs:comment xml:lang="en">By manufactures issued unique combination of numbers
+and letters used to identify the device for ordering</rdfs:comment>
+        <rdfs:label xml:lang="en">OrderCodeOfManufacturer</rdfs:label>
+        <rdfs:seeAlso>[IRDI] 0112/2///61987#ABA950#006 order
+code of product</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Product">
+        <rdfs:label>Product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductArticleNumberOfManufacturer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductArticleNumberOfManufacturer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification"/>
+        <rdfs:comment xml:lang="en">unique product identifier of the manufacturer</rdfs:comment>
+        <rdfs:label xml:lang="en">ProductArticleNumberOfManufacturer</rdfs:label>
+        <rdfs:seeAlso>[IRDI] 0112/2///61987#ABA581#006 article
+number</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification">
+        <rdfs:label xml:lang="en">ProductSpecification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#SerialNumber -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#SerialNumber">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification"/>
+        <untitled-ontology-146:semanticId>0173-1#02-AAM556#002</untitled-ontology-146:semanticId>
+        <untitled-ontology-146:semanticIdType>IRDI</untitled-ontology-146:semanticIdType>
+        <rdfs:comment xml:lang="en">unique combination of numbers and letters used to identify
+the device once it has been manufactured</rdfs:comment>
+        <rdfs:label>SerialNumber</rdfs:label>
+        <rdfs:seeAlso>[IRDI] 0112/2///61987#ABA951#007 serial number</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#SoftwareVersion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#SoftwareVersion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification"/>
+        <rdfs:label>SoftwareVersion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#URIOfTheProduct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#URIOfTheProduct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#YearOfConstruction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#YearOfConstruction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/8/untitled-ontology-146#ProductSpecification"/>
+        <untitled-ontology-146:semanticId>0173-1#02-AAP906#001</untitled-ontology-146:semanticId>
+        <untitled-ontology-146:semanticIdType>IRDI</untitled-ontology-146:semanticIdType>
+        <rdfs:comment>Year as completion date of object
+Note: mandatory property according to EU Machine
+Directive 2006/42/EC.</rdfs:comment>
+        <rdfs:label>YearOfConstruction</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

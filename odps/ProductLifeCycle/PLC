@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128/"
+     xml:base="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128">
+        <rdfs:label xml:lang="en">Product Life Cycle</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Consumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Consumption">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Usage"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Product_Life_Cycle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Design -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Design">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Product_Life_Cycle"/>
+        <rdfs:comment xml:lang="en">Design Phase is:
+Most sustainable
+Adss Value
+Responsive Use and manufacturing</rdfs:comment>
+        <rdfs:label xml:lang="en">Design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Development -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Development">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Design"/>
+        <rdfs:label xml:lang="en">Development</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Disassemble -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Disassemble">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Recycle"/>
+        <rdfs:label xml:lang="en">Disassemble</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Disposal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Disposal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#End-Of-Life"/>
+        <rdfs:label xml:lang="en">Disposal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Distribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Distribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Manufacturing"/>
+        <rdfs:label xml:lang="en">Distribution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#End-Of-Life -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#End-Of-Life">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Product_Life_Cycle"/>
+        <rdfs:label xml:lang="en">End-Of-Life</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Maintenance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Maintenance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Product_Life_Cycle"/>
+        <rdfs:label xml:lang="en">Maintenance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Manufacturing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Manufacturing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Product_Life_Cycle"/>
+        <rdfs:label xml:lang="en">Manufacturing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#NeedsRecogonition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#NeedsRecogonition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Design"/>
+        <rdfs:label xml:lang="en">NeedsRecogonition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Product_Life_Cycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Product_Life_Cycle">
+        <rdfs:comment xml:lang="en">Product Life Cycle (PLC)</rdfs:comment>
+        <rdfs:label>Product Life Cycle</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">the module is created based on the follwong link of R-Strategies for a Circular Economy
+https://www.circularise.com/blogs/r-strategies-for-a-circular-economy
+
+
+
+https://philarchive.org/archive/ALIAPL
+
+ the successive phases of the PLC taken as the basis of
+ontology development in many recent works, including Young et al. [3], Chen et al. [16], Borsato [18], Matsokis and Kiritsis [20], Chungoora et al. [21], Usman et al. [22], Urwin [23], Urwin et al. [24], and others.</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Production -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Production">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Manufacturing"/>
+        <rdfs:label xml:lang="en">Production</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Recovery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Recovery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#End-Of-Life"/>
+        <rdfs:label xml:lang="en">Recovery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Recycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Recycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#End-Of-Life"/>
+        <rdfs:label xml:lang="en">Recycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Reduce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Reduce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Design"/>
+        <rdfs:label xml:lang="en">Reduce</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Refurbisch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Refurbisch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Consumption"/>
+        <rdfs:label xml:lang="en">Refurbish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Refuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Refuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Design"/>
+        <rdfs:label xml:lang="en">Refuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Remanufacture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Remanufacture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Consumption"/>
+        <rdfs:label xml:lang="en">Remanufacture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Repair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Repair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Consumption"/>
+        <rdfs:label xml:lang="en">Repair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Repurpose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Repurpose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Consumption"/>
+        <rdfs:label xml:lang="en">Repurpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Rethink -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Rethink">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Design"/>
+        <rdfs:label xml:lang="en">Rethink</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Reuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Reuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Consumption"/>
+        <rdfs:label xml:lang="en">Reuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Usage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Usage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/monirehpourjafarian/ontologies/2024/7/untitled-ontology-128#Product_Life_Cycle"/>
+        <rdfs:label xml:lang="en">Usage</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
