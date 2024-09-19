@@ -1,5 +1,5 @@
 
-# Digital Product Passport Ontology
+# An ODP-based Ontology for the Digital Product Passport
 
 This repository contains the ontology developed for the Digital Product Passport (DPP), with a primary focus on supporting Circular Economy through R-strategies. The ontology design is based on modular **Ontology Design Patterns (ODPs)** and aims to provide a standardized framework for managing product information throughout its lifecycle, specifically in the context of sustainability and resource efficiency.
 
