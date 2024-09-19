@@ -14,6 +14,8 @@ The R-strategies framework, central to Circular Economy, includes various approa
 - **Reuse**: Extending product life by reusing it or its components.
 - **Recycle**: Recovering materials from products to reintroduce them into the production cycle.
 - **Repair**: Fixing products to extend their functionality.
+  
+The use case is required to be simple to evaluate the resulting ontology of the DPP, which is a merged ontology from the developed ODPs. The DPP is meant to be used throughout the whole product life cycle to bring transparency and provide relevant information to a wide range of stakeholders. The use case which is specified in this paper aims to help the recycler to evaluate damaged products to enhance their circularity. The recycler receives household electronic products, for instance washing machines, along with their DPPs. The products are labeled as damaged. The DPP should act as a collection of information about the product and the damages it sustained. The goal is to aid the recycler in the decision task of how to proceed with the product, either send it to Repair or Reuse, or Disassemble and Recycle the product.
 
 ## Ontology Design Patterns (ODPs)
 
