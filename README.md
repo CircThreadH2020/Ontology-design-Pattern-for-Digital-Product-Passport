@@ -3,9 +3,11 @@
 
 This repository contains the ontology developed for the Digital Product Passport (DPP), with a primary focus on supporting Circular Economy through R-strategies. The ontology design is based on modular **Ontology Design Patterns (ODPs)** and aims to provide a standardized framework for managing product information throughout its lifecycle, specifically in the context of sustainability and resource efficiency.
 
-## Use Case: Damaged Product Assessment by Recycler
+## Use Case: Damaged Product Assessment by End-Of-Life Stakeholder, e.g. B-Stock manager / Collector operator
 
-The ontology is inspired by the **CircThread Project deliverable 6.3** and is specifically tailored to address the use case of **Damaged Product Assessment by Recycler**. This use case focuses on assessing damaged products in order to optimize recycling, reuse, or repair operations—key aspects of the Circular Economy's R-strategies.
+The ontology is inspired by the **CircThread Project deliverable 6.3** and is specifically tailored to address the use case of **Damaged Product Assessment by End-Of-Life Stakeholder, e.g. B-Stock manager / Collector operator**. 
+This use case focuses on assessing Stakeholder in decision making task regarding the damaged products in order to optimize recycling, reuse, or repair operations—key aspects of the Circular Economy's R-strategies.
+
 
 ### R-Strategies of Circular Economy
 
@@ -15,7 +17,11 @@ The R-strategies framework, central to Circular Economy, includes various approa
 - **Recycle**: Recovering materials from products to reintroduce them into the production cycle.
 - **Repair**: Fixing products to extend their functionality.
   
-The use case is required to be simple to evaluate the resulting ontology of the DPP, which is a merged ontology from the developed ODPs. The DPP is meant to be used throughout the whole product life cycle to bring transparency and provide relevant information to a wide range of stakeholders. The use case which is specified in this paper aims to help the recycler to evaluate damaged products to enhance their circularity. The recycler receives household electronic products, for instance washing machines, along with their DPPs. The products are labeled as damaged. The DPP should act as a collection of information about the product and the damages it sustained. The goal is to aid the recycler in the decision task of how to proceed with the product, either send it to Repair or Reuse, or Disassemble and Recycle the product.
+The use case is required to be simple to evaluate the resulting ontology of the DPP, which is a merged ontology from the developed ODPs. 
+The DPP is meant to be used throughout the whole product life cycle to bring transparency and provide relevant information to a wide range of stakeholders. 
+The use case which is specified in this paper aims to help the End-Of-Life Stakeholder, e.g. B-Stock manager / Collector operator to evaluate damaged products to enhance their circularity. 
+The End-Of-Life Stakeholder receives household electronic products, for instance washing machines, along with their DPPs. The products are labeled as damaged. 
+The DPP should act as a collection of information about the product and the damages it sustained. The goal is to aid the End-Of-Life Stakeholder in the decision task of how to proceed with the product, either send it to Repair or Reuse, or Disassemble and Recycle the product.
 
 ## Ontology Design Patterns (ODPs)
 
