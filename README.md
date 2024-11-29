@@ -31,7 +31,7 @@ The ontology is composed of several **Ontology Design Patterns (ODPs)**, which a
 
 - Modular and reusable **Ontology Design Patterns (ODPs)**.
 - Support for various R-strategies of Circular Economy.
-- Tailored to the **Damaged Product Assessment by Recycler** use case.
+- Tailored to the **Damaged Product Assessment by End-Of-Life Stakeholder** use case.
 - Designed to promote sustainability and resource efficiency.
 
 ## Installation
